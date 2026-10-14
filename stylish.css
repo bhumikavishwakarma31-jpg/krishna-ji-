@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    background-color: rgb(12,55,95);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(20,25,40);
+    padding: 25px;
+    text-align: center;
+}
+#navbar a {
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+    margin : 30px;
+}
+#main{
+    width:100%;
+    height: 500px;
+    background-image: url(https://soranews24.com/wp-content/uploads/sites/3/2021/01/1_001fb3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+#logo{
+    width: 45%;
+    display:inline-block;
+    vertical-align: middle;
+    background-color: rgba(10,30,50,0.85);
+    padding: 25px;
+    margin-left: 30px;
+}
+#logo img{
+    width: 350px;
+    height:auto;
+}
+#synopsis {
+    width:45%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgb(107, 73, 74);
+    padding:10px;
+    font-size:25px;
+    margin-left: 30px;
+    vertical-align: middle;
+
+}
+#synopsis p{
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+#synopsis h2 {
+    background-color: rgb(105, 80, 80);
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#synopsis button {
+    padding: 10px 25px;
+    background-color: rgb(48, 36, 36);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+#categories{
+    width:100%;
+    padding: 25px;
+    text-align:centre;
+    background-color: rgb(12,55,95);
+}
+#categories button{
+    width : 180px;
+    height:45px;
+    margin: 15px;
+    background-color:rgb(15,45,75);
+    color:white;
+    border: 2px solid white;
+    font-size:16px;
+}
+#characters {
+    width: 100%;
+    padding: 35px 20px;
+    text-align: center;
+    background-color: rgb(16, 65, 110);
+
+}
+#characters > div {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    vertical-align: top;
+    text-align: center;
+}
+
+#characters img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+#characters h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+#characters > div {
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+}
+#characters img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+#characters h3 {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+#characters p {
+    color: gold;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#quotes {
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(150, 170, 185);
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+#quotes > div {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+#quotes img {
+    width: 250px;
+    height: 350px;
+    object-fit: contain;
+}
+#quotes h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+#quotes p {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+#quotes small {
+    display: block;
+    margin-top: 10px;
+}
+#footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(20, 30, 45);
+    text-align: center;
+    padding: 25px;
+}
+#footer strong {
+    color: rgb(80, 180, 255);
+}
